@@ -479,12 +479,12 @@ class Y extends c {
 
 const X = {
   count: 100,
-  colors: [0x9F7AEA, 0xFFFFFF, 0x000000],
+  colors: [0x590EF2, 0x590EF2, 0x000000,0xFFFFFF],
   ambientColor: 0x9F7AEA,
   ambientIntensity: 0.5,
   lightIntensity: 200,
   materialParams: {
-    metalness: 0.5,
+    metalness: 0,
     roughness: 0.5,
     clearcoat: 1,
     clearcoatRoughness: 0.15,
